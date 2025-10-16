@@ -7,7 +7,7 @@
 
 ## 🚀 Live Demo
 
-**[View Live Demo](https://your-site.netlify.app)** | **[View Source](https://github.com/bishopkbb/profile-card)**
+**[View Live Demo](https://bishopkbb.github.io/profile-card)** | **[View Source](https://github.com/bishopkbb/profile-card)**
 
 ---
 
@@ -376,10 +376,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/bishopkbb)
-- Twitter: [@yourhandle](https://twitter.com/AjibadeTos85323)
-- LinkedIn: [Your Name](https://linkedin.com/in/ajibade-tosin-955252361)
+**Ajibade Tosin Francis**
+- GitHub: [@bishopkbb](https://github.com/bishopkbb)
+- Twitter: [@AjibadeTos85323](https://twitter.com/AjibadeTos85323)
+- LinkedIn: [Ajibade Tosin](https://linkedin.com/in/ajibade-tosin-955252361)
 
 ---
 

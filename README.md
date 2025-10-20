@@ -7,7 +7,11 @@
 
 ## 🚀 Live Demo
 
+<<<<<<< HEAD
 **[View Live Demo](https://your-site.netlify.app)** | **[GitHub Repository](https://github.com/bishopkbb/frontend-wizards-stage1)**
+=======
+**[View Live Demo](https://bishopkbb.github.io/profile-card)** | **[View Source](https://github.com/bishopkbb/profile-card)**
+>>>>>>> ebfdca6bcc49caaf4dc9d858c6d480099a69b3db
 
 ---
 
@@ -545,7 +549,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👤 Author
 
+<<<<<<< HEAD
 **Ajibade Tosin**
+=======
+**Ajibade Tosin Francis**
+>>>>>>> ebfdca6bcc49caaf4dc9d858c6d480099a69b3db
 - GitHub: [@bishopkbb](https://github.com/bishopkbb)
 - Twitter: [@AjibadeTos85323](https://twitter.com/AjibadeTos85323)
 - LinkedIn: [Ajibade Tosin](https://linkedin.com/in/ajibade-tosin-955252361)
@@ -572,6 +580,7 @@ If you encounter any issues or have questions:
 
 ---
 
+<<<<<<< HEAD
 ## ✅ Submission Checklist
 
 Before submitting, ensure:
@@ -595,3 +604,6 @@ Before submitting, ensure:
 **Submission Deadline**: October 22, 2025 | 11:59 PM WAT (GMT +1)
 
 **Built with ❤️ for HNG Internship Frontend Wizards Stage 1 Challenge**
+=======
+**Built with ❤️ for Frontend Wizards Stage 0 Challenge**
+>>>>>>> ebfdca6bcc49caaf4dc9d858c6d480099a69b3db

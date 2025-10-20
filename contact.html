@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Frontend Wizards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">Frontend Wizards</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="page-container">
+            <div class="page-header">
+                <h1>Get In Touch</h1>
+                <p>Have a question or want to work together? I'd love to hear from you!</p>
+            </div>
+
+            <div class="contact-container">
+                <form id="contactForm" class="contact-form" novalidate aria-labelledby="form-title">
+                    <h2 id="form-title" class="form-title">Contact Form</h2>
+
+                    <!-- Success Message -->
+                    <div 
+                        id="successMessage" 
+                        class="alert alert-success" 
+                        data-testid="test-contact-success" 
+                        role="alert" 
+                        aria-live="polite"
+                        style="display: none;"
+                    >
+                        <strong>Success!</strong> Your message has been sent successfully. I'll get back to you soon!
+                    </div>
+
+                    <!-- Full Name Field -->
+                    <div class="form-group">
+                        <label for="contactName">
+                            Full Name <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="contactName" 
+                            name="name"
+                            data-testid="test-contact-name"
+                            aria-required="true"
+                            aria-describedby="nameError"
+                            aria-invalid="false"
+                        >
+                        <div 
+                            id="nameError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-name"
+                            role="alert"
+                        ></div>
+                    </div>
+
+                    <!-- Email Field -->
+                    <div class="form-group">
+                        <label for="contactEmail">
+                            Email Address <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="email" 
+                            id="contactEmail" 
+                            name="email"
+                            data-testid="test-contact-email"
+                            aria-required="true"
+                            aria-describedby="emailError"
+                            aria-invalid="false"
+                        >
+                        <div 
+                            id="emailError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-email"
+                            role="alert"
+                        ></div>
+                    </div>
+
+                    <!-- Subject Field -->
+                    <div class="form-group">
+                        <label for="contactSubject">
+                            Subject <span class="required" aria-label="required">*</span>
+                        </label>
+                        <input 
+                            type="text" 
+                            id="contactSubject" 
+                            name="subject"
+                            data-testid="test-contact-subject"
+                            aria-required="true"
+                            aria-describedby="subjectError"
+                            aria-invalid="false"
+                        >
+                        <div 
+                            id="subjectError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-subject"
+                            role="alert"
+                        ></div>
+                    </div>
+
+                    <!-- Message Field -->
+                    <div class="form-group">
+                        <label for="contactMessage">
+                            Message <span class="required" aria-label="required">*</span>
+                        </label>
+                        <textarea 
+                            id="contactMessage" 
+                            name="message"
+                            rows="6"
+                            data-testid="test-contact-message"
+                            aria-required="true"
+                            aria-describedby="messageError messageHelp"
+                            aria-invalid="false"
+                        ></textarea>
+                        <small id="messageHelp" class="form-help">Minimum 10 characters required</small>
+                        <div 
+                            id="messageError" 
+                            class="error-message" 
+                            data-testid="test-contact-error-message"
+                            role="alert"
+                        ></div>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button 
+                        type="submit" 
+                        class="btn btn-primary"
+                        data-testid="test-contact-submit"
+                    >
+                        Send Message
+                    </button>
+                </form>
+
+                <!-- Contact Info Sidebar -->
+                <aside class="contact-info">
+                    <h3>Other Ways to Reach Me</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📧</span>
+                        <div>
+                            <strong>Email</strong>
+                            <p>ajibade_tosin@yahoo.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📱</span>
+                        <div>
+                            <strong>Phone</strong>
+                            <p>+234 816-896-7327</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>Location</strong>
+                            <p>Ibadan, Oyo State, Nigeria</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">⏰</span>
+                        <div>
+                            <strong>Response Time</strong>
+                            <p>Usually within 24-48 hours</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Frontend Wizards. Built with ❤️ for Stage 1 Challenge.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

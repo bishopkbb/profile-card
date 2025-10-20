@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Frontend Wizards</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="main-nav" aria-label="Main navigation">
+        <div class="nav-container">
+            <div class="nav-brand">Frontend Wizards</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" class="active" aria-current="page">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <main class="main-content" data-testid="test-about-page">
+        <div class="page-container">
+            <div class="page-header">
+                <h1>About Me</h1>
+                <p>My journey, goals, and reflections on this Frontend Wizards program</p>
+            </div>
+
+            <div class="about-content">
+                <!-- Bio Section -->
+                <section class="about-section" data-testid="test-about-bio">
+                    <div class="section-icon">👤</div>
+                    <div class="section-content">
+                        <h2>Who I Am</h2>
+                        <p>
+                            I am a passionate and detail-oriented frontend developer currently advancing through the HNG Internship program. My journey into tech began from a deep curiosity about how digital products are built and how they shape user experiences. Over time, I've developed a strong foundation in HTML, CSS, and JavaScript, with a growing interest in creating accessible, responsive, and visually engaging web applications. I believe in continuous learning and see every project as an opportunity to grow and refine my craft.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Goals Section -->
+                <section class="about-section" data-testid="test-about-goals">
+                    <div class="section-icon">🎯</div>
+                    <div class="section-content">
+                        <h2>My Goals in This Program</h2>
+                        <p>
+                            My primary goal in this internship is to strengthen my frontend development skills through real-world, hands-on experience. I aim to build production-ready applications that reflect best practices in design, accessibility, and code structure. Beyond technical skills, I want to develop the discipline, teamwork, and problem-solving mindset needed to thrive in a fast-paced developer environment.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Confidence Section -->
+                <section class="about-section" data-testid="test-about-confidence">
+                    <div class="section-icon">💭</div>
+                    <div class="section-content">
+                        <h2>Areas Where I Lack Confidence</h2>
+                        <p>
+                            While I'm confident in my understanding of the fundamentals, I'm still improving in areas such as advanced JavaScript concepts and state management in larger projects. I also want to gain more experience working with frameworks like React and learning how to optimize performance in responsive layouts.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Future Note Section -->
+                <section class="about-section" data-testid="test-about-future-note">
+                    <div class="section-icon">💌</div>
+                    <div class="section-content">
+                        <h2>Note to My Future Self</h2>
+                        <blockquote class="future-note">
+                            <p>
+                                Keep believing in your ability to learn, adapt, and grow. Every challenge you overcome today builds the foundation for the developer you're becoming. Stay consistent, keep writing clean code, and never stop experimenting. Your progress will always reflect your persistence.
+                            </p>
+                        </blockquote>
+                    </div>
+                </section>
+
+                <!-- Extra Thoughts Section -->
+                <section class="about-section" data-testid="test-about-extra">
+                    <div class="section-icon">💡</div>
+                    <div class="section-content">
+                        <h2>Additional Thoughts</h2>
+                        <p>
+                            This program is more than an internship it's a journey of growth, accountability, and collaboration. I'm excited to connect with other talented developers, share ideas, and contribute to projects that make a real impact. My focus remains on growth, excellence, and continuous improvement.
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2025 Frontend Wizards. Built with ❤️ for Stage 1 Challenge.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
